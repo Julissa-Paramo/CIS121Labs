@@ -3,6 +3,9 @@ Julissa Paramo
 9/22/23
 Prime or Perfect
 '''
+#nested for loops
+#boolean values
+
 
 for i in range ( 2 , 251 ) :
 
