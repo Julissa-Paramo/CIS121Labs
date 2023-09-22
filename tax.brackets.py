@@ -3,6 +3,9 @@ Julissa Paramo
 9/7/23
 Lab 3 Selection Statements
 """
+#if, else-if statements
+#math
+#floats
 
 earned_income = float ( input ( 'Enter the amount of income you earned in 2023: ' ) )
 marital_status = input ( 'Are you married or single?\nType m for married and s for single: ' )
