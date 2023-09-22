@@ -3,6 +3,9 @@ Julissa Paramo
 9/22/23
 Prime Numbers
 '''
+#finding all prime numbers from 1 to 250
+#nested for loops
+#booleans
 
 num = 2
 count = 2
