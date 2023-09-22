@@ -4,6 +4,10 @@ Julissa Paramo
 9/22/23
 Prime and Digit 3
 '''
+#nested for loops
+#determining string values
+#booleans
+
 
 for i in range ( 2 , 251 ) :
 
