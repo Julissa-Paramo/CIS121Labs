@@ -4,6 +4,10 @@ Julissa Paramo
 8 x 10 Multiplication Table
 '''
 
+#muliplication table for 8 x 10
+#nested for loops
+#spacing details
+
 for i in range ( 1 , 9 ) :
     
     for j in range ( 1 , 11 ) :
