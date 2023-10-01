@@ -4,10 +4,13 @@ Julissa Paramo
 how many characters in a phrase?
 '''
 
+#counts how many of a certain character is in a string
+#splitting, joining, counting
+
+
 phrase = input() #enter a character followed by a phrase 'n chicken nuggets'
 
 phrase.split() # splits the phrase into tokens
-
 
 letter = phrase[0] # assigns the first token to letter variable ( the character )
 
