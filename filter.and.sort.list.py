@@ -9,20 +9,21 @@ Filter and Sort a List
 
 nums = input() # numbers are inputted
 
-nums1 = nums.split() # creates a list of strings from the numbers 
+nums1 = nums.split() # numbers are split into tokens
 
-nums2 = list(map(int, nums1)) # makes a new list of integers
+negvals = [] # empty list for the negative values
 
-sortedlist = sorted(nums2) # sorts the list from smallest to largest integrers
 
-negvals = [] # empty list
-
-for num in sortedlist: # iterate through each integer in the list
-
-    if num < 0: # checks if the integer is negative
-
-        negvals.append(num) # adds the integer to the empty list
+for num in nums1: # iterates through elements
+    
+    if int(num) < 0: # int(num) converts the element from a string to an integer + checks if it's negative
         
-print(' '.join(map(str, negvals[::-1]))) # negvals[::-1] returns the list in reverse order
-                                        # list is converted to a string with (map(str, x)
-                                        # list is concatenated by ' ' with join function
+        negvals.append(int(num)) # adds negative integer to the empty list
+        
+
+negvals.sort(reverse=True) # sorts from smallest to largest , then reverses the order
+
+
+for num in negvals: # creates a copy of the reversed list and prints the elements with a space in between
+    
+    print(num, end=' ')
