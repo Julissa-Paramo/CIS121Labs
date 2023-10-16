@@ -2,8 +2,10 @@
 Julissa Paramo
 10 / 9 / 23
 Lab 7 - Dictionaries
+'''
 
 # dictionaries
+# boolean statements
 
 phone_book = {} # empty dictionary to add to 
 
