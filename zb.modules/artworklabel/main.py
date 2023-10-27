@@ -1,7 +1,4 @@
-'''
-Julissa Paramo
-10 / 24 / 23
-'''
+# TODO: Import Artist from Artist.py and Artwork from Artwork.py
 
 from Artist import Artist
 
